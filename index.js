@@ -109,7 +109,7 @@ function createRock(x) {
  */
 function endGame() {
   gameInterval = setInterval(0);
-  ROCKS = [];
+  ROCKS.splice(0, ROCKS.length);
   dodger.style.left = 180;
   alert("YOU LOSE!")
 }
