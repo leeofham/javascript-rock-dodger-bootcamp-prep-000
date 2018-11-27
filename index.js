@@ -108,8 +108,8 @@ function createRock(x) {
  * Finally, alert "YOU LOSE!" to the player.
  */
 function endGame() {
-  gameInterval = 0;
-  ROCKS = [];
+  gameInterval();
+  ROCKS = 0;
   dodger.style.left = 180;
   alert("YOU LOSE!")
 }
